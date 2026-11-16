@@ -12,8 +12,8 @@
 | --- | --- | --- |
 | prompt | required | Generation or editing instruction, up to 5,000 characters. |
 | image_urls | optional | One to three input images. |
-| size | required | 1:1, 3:2, 2:3, 4:3, 3:4, 16:9, 9:16, or 21:9. |
-| resolution | required | 1K or 2K. |
+| size | optional | 1:1, 3:2, 2:3, 4:3, 3:4, 16:9, 9:16, or 21:9. |
+| resolution | optional | 1K or 2K; default 1K. |
 | output_format | optional | png or jpeg. |
 | prompt_extend | optional | Boolean prompt expansion. |
 | negative_prompt | optional | Up to 5,000 characters. |

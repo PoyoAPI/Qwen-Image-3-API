@@ -6,7 +6,7 @@ Generate or edit 1K and 2K images with Qwen Image 3 or Qwen Image 3 Pro through 
 
 **Answer:** To use the Qwen Image 3 API, send a server-side request to `POST https://api.poyo.ai/api/generate/submit` with model `qwen-image-3`, `qwen-image-3-pro` and a PoYo API key. The examples in this repository are runnable with Node.js 22+ or cURL.
 
-Last verified against the live PoYo schema and pricing on **August 9, 2026**.
+Last verified against the live PoYo schema and pricing on **November 16, 2026**.
 
 ## Quickstart
 
@@ -34,8 +34,8 @@ Use the exact IDs above. Product names and API model IDs are not always identica
 | --- | --- | --- |
 | prompt | required | Generation or editing instruction, up to 5,000 characters. |
 | image_urls | optional | One to three input images. |
-| size | required | 1:1, 3:2, 2:3, 4:3, 3:4, 16:9, 9:16, or 21:9. |
-| resolution | required | 1K or 2K. |
+| size | optional | 1:1, 3:2, 2:3, 4:3, 3:4, 16:9, 9:16, or 21:9. |
+| resolution | optional | 1K or 2K; default 1K. |
 | output_format | optional | png or jpeg. |
 | prompt_extend | optional | Boolean prompt expansion. |
 | negative_prompt | optional | Up to 5,000 characters. |
