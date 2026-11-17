@@ -1,6 +1,6 @@
 # Qwen Image 3 API: runnable cURL and Node.js examples
 
-[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-qwen--image--3--api-84cc16)](https://poyo.ai/models/qwen-image-3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/image-series/qwen-image-3) [![Check](https://github.com/PoyoAPI/qwen-image-3-api/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/qwen-image-3-api/actions/workflows/check.yml)
+[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-qwen--image--3--api-84cc16)](https://poyo.ai/models/qwen-image-3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/image-series/qwen-image-3) [![Check](https://github.com/PoyoAPI/Qwen-Image-3-API/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/Qwen-Image-3-API/actions/workflows/check.yml)
 
 Generate or edit 1K and 2K images with Qwen Image 3 or Qwen Image 3 Pro through PoYo's async API.
 
